@@ -1,0 +1,3 @@
+[2020-10-04 22:01:17.250] [sharedprocess] [info] main {"machineId":"3a6b6a029604ace06d69d67f49ebfeb421d7999f9d5b84437eb854d59d0b9474","windowId":2}
+[2020-10-04 22:01:17.318] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/leandroalmiron/Desktop/unahur/api/User/snippets'
+[2020-10-04 22:01:57.265] [sharedprocess] [info] Starting to clean up unused language packs.

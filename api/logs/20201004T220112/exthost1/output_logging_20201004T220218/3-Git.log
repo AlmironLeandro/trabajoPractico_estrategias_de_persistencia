@@ -1,0 +1,24 @@
+Looking for git in: git
+Using git 2.28.0 from git
+> git rev-parse --git-dir
+Open repository: /home/leandroalmiron/Desktop/unahur
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse grupo_persistencia
+> git rev-parse --symbolic-full-name grupo_persistencia@{u}
+fatal: no upstream configured for branch 'grupo_persistencia'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :api/routes/materias.js
+> git ls-files --stage -- /home/leandroalmiron/Desktop/unahur/api/routes/materias.js
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :api/app.js
+> git ls-files --stage -- /home/leandroalmiron/Desktop/unahur/api/app.js
+> git cat-file -s 93057a4821fc3b7ab83e242e67e7523cda26dc8e
+> git check-ignore -v -z --stdin

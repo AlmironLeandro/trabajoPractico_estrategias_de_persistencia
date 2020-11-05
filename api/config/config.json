@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "escuela",
+    "password": "",
+    "database": "api_v1",
+    "host": "localhost",
+    "dialect": "mariadb",
+    "operatorsAliases": false
+  }
+}
