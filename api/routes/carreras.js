@@ -3,7 +3,7 @@ var router = express.Router();
 var models = require("../models");
 
 router.get("/", (req, res) => {
-  console.log("Esto es un mensaje para ver en consola");
+  console.log("Obteniendo carreras");
   models.carrera
     .findAll({
       attributes: ["id", "nombre"]
@@ -15,7 +15,7 @@ router.get("/", (req, res) => {
 router.post("/", (req, res) => {
   models.carrera
     .create({ nombre: req.body.nombre })
-    .then(carrera => res.status(201).send({ id: carrera.id }))
+    .then(carrera => res.status(201).send({ nombre: carrera.nombre }))
     .catch(error => {
       if (error == "SequelizeUniqueConstraintError: Validation error") {
         res.status(400).send('Bad request: existe otra carrera con el mismo nombre')
